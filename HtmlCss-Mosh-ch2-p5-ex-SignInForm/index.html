@@ -5,5 +5,33 @@
     <link rel="stylesheet" href="/css/normalize.css" />
     <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <form class="form-signin" action="" method="post">
+      <h1>Plase sign in</h1>
+      <div class="form-group">
+        <input
+          class="form-input"
+          type="email"
+          placeholder="Email address"
+          autofocus
+          required
+        />
+      </div>
+      <div class="form-group">
+        <input
+          class="form-input"
+          type="password"
+          placeholder="Password"
+          maxlength="40"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="remember-me" />
+        <label for="remember-me">Remember me</label>
+      </div>
+      <button class="btn">Sign in</button>
+      <p class="copyright">Copyright © 2023</p>
+    </form>
+  </body>
 </html>
