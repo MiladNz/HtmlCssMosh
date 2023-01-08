@@ -9,5 +9,17 @@
 8-We often declare variables using the :root selector that targets the html element. 
     We can then access these variables using the var() function.
 9-Object-oriented CSS is a set of principles for creating reusable components. The two
-    principles in object-oriented CSS are: 1- Separate container and content. 2- Separate structure and skin.
-10-
+    principles in object-oriented CSS are: 
+    1- Separate container and content. 
+    2- Separate structure and skin(btn => Structure , btn-primary or btn-secondary => Skin).
+10-BEM (Block Element Modifier) is a popular naming convention for CSS classes :
+
+    A BEM class name includes up to three parts.
+    
+    Block: The outermost parent element of the component is defined as the block.
+    Element: Inside of the component may be one or more children called elements.
+    Modifier: Either a block or element may have a variation signified by a modifier.
+    
+    If all three are used in a name it would look something like this:
+    [block]__[element]--[modifier]
+Examples : https://sparkbox.com/foundry/bem_by_example
