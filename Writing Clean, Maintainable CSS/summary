@@ -1,1 +1,3 @@
 1-The most common naming conventions are PascalCase, camelCase and kabob-case.
+2- For larger projects, you want to split that stylesheet into multiple style sheets, and then combine them together. 
+This is where we use CSS preprocessor tools like sass and less.
