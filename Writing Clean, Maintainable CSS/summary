@@ -1,3 +1,13 @@
 1-The most common naming conventions are PascalCase, camelCase and kabob-case.
 2- For larger projects, you want to split that stylesheet into multiple style sheets, and then combine them together. 
-This is where we use CSS preprocessor tools like sass and less.
+    This is where we use CSS preprocessor tools like sass and less.
+3-Adding comments helps us logically separate different sections in our stylesheet.
+4-Avoid over-specific selectors. Limit nesting to two or maximum three selectors.
+5-Avoid the !important keyword as much as possible.
+6-Sort Css Properties in Vscode : Select All properties => Command palette => Sort Lines ASC/DES.
+7-Take advantage of style inheritance and reduce duplication in your styles.
+8-We often declare variables using the :root selector that targets the html element. 
+    We can then access these variables using the var() function.
+9-Object-oriented CSS is a set of principles for creating reusable components. The two
+    principles in object-oriented CSS are: 1- Separate container and content. 2- Separate structure and skin.
+10-
